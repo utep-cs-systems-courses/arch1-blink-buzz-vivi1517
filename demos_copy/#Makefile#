@@ -1,0 +1,4 @@
+#additional rules for files
+button.elf: ${COMMON_OBJECTS} p1_interrupt_handler.o led.o switches.o stateMachines.o buttonMain.o
+
+
